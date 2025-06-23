@@ -12,3 +12,4 @@ C:\Users\HRM DAKOLO\Desktop\Start\Overview\MyConsoleApp\obj\Debug\net8.0\refint\
 C:\Users\HRM DAKOLO\Desktop\Start\Overview\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.pdb
 C:\Users\HRM DAKOLO\Desktop\Start\Overview\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.genruntimeconfig.cache
 C:\Users\HRM DAKOLO\Desktop\Start\Overview\MyConsoleApp\obj\Debug\net8.0\ref\MyConsoleApp.dll
+C:\Users\HRM DAKOLO\Desktop\Start\Overview\MyConsoleApp\obj\Debug\net8.0\MyConsoleApp.sourcelink.json
