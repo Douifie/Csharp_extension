@@ -17,15 +17,22 @@ Console.WriteLine($"{(char)(c + a)}");
 Console.WriteLine($"{f + a}");     
 Console.WriteLine($"{f + c}"); 
 // TODO: Create an instance of a struct (which is a value type)
-
+s s1; 
+s1.a = 5; 
+s1.b = false; 
 
 // Perform an operation on a struct
-void StructOp(s theStruct) {
+void StructOp(s theStruct)
+{
     // Modify the struct properties inside the function
     theStruct.a = 10;
     theStruct.b = true;
     Console.WriteLine($"{theStruct.a}, {theStruct.b}");
 }
+Console.WriteLine("Structs are passed by copy, since they are value types:"); 
+ Console.WriteLine($"{s1.a}, {s1.b}"); 
+ StructOp(s1); 
+ Console.WriteLine($"{s1.a}, {s1.b}"); 
 
 // Console.WriteLine("Structs are passed by copy, since they are value types:");
 // Console.WriteLine($"{s1.a}, {s1.b}");
